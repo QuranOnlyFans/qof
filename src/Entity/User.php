@@ -63,5 +63,76 @@ class User
      */
     private $updatedAt;
 
+    // Getters and Setters
 
+    public function getId(): ?int
+    {
+        return $this->id;
+    }
+
+    public function getName(): ?string
+    {
+        return $this->name;
+    }
+
+    public function setName(string $name): self
+    {
+        $this->name = $name;
+        return $this;
+    }
+
+    public function getEmail(): ?string
+    {
+        return $this->email;
+    }
+
+    public function setEmail(string $email): self
+    {
+        $this->email = $email;
+        return $this;
+    }
+
+    public function getPassword(): ?string
+    {
+        return $this->password;
+    }
+
+    public function setPassword(string $password): self
+    {
+        $this->password = $password;
+        return $this;
+    }
+
+    public function getRememberToken(): ?string
+    {
+        return $this->rememberToken;
+    }
+
+    public function setRememberToken(?string $rememberToken): self
+    {
+        $this->rememberToken = $rememberToken;
+        return $this;
+    }
+
+    public function getCreatedAt(): ?\DateTime
+    {
+        return $this->createdAt;
+    }
+
+    public function setCreatedAt(?\DateTime $createdAt): self
+    {
+        $this->createdAt = $createdAt;
+        return $this;
+    }
+
+    public function getUpdatedAt(): ?\DateTime
+    {
+        return $this->updatedAt;
+    }
+
+    public function setUpdatedAt(?\DateTime $updatedAt): self
+    {
+        $this->updatedAt = $updatedAt;
+        return $this;
+    }
 }

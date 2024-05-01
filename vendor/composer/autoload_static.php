@@ -1606,6 +1606,7 @@ class ComposerStaticInitfd0115627e097aebd3ce530b8a36e4bb
         'ApiPlatform\\Util\\SortTrait' => __DIR__ . '/..' . '/api-platform/core/src/Util/SortTrait.php',
         'ApiPlatform\\Validator\\Exception\\ValidationException' => __DIR__ . '/..' . '/api-platform/core/src/Validator/Exception/ValidationException.php',
         'ApiPlatform\\Validator\\ValidatorInterface' => __DIR__ . '/..' . '/api-platform/core/src/Validator/ValidatorInterface.php',
+        'App\\Controller\\ApiController' => __DIR__ . '/../..' . '/src/Controller/ApiController.php',
         'App\\Entity\\Ayah' => __DIR__ . '/../..' . '/src/Entity/Ayah.php',
         'App\\Entity\\AyahEdition' => __DIR__ . '/../..' . '/src/Entity/AyahEdition.php',
         'App\\Entity\\Edition' => __DIR__ . '/../..' . '/src/Entity/Edition.php',

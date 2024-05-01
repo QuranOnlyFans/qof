@@ -998,6 +998,7 @@ return array(
     'ApiPlatform\\Util\\SortTrait' => $vendorDir . '/api-platform/core/src/Util/SortTrait.php',
     'ApiPlatform\\Validator\\Exception\\ValidationException' => $vendorDir . '/api-platform/core/src/Validator/Exception/ValidationException.php',
     'ApiPlatform\\Validator\\ValidatorInterface' => $vendorDir . '/api-platform/core/src/Validator/ValidatorInterface.php',
+    'App\\Controller\\ApiController' => $baseDir . '/src/Controller/ApiController.php',
     'App\\Entity\\Ayah' => $baseDir . '/src/Entity/Ayah.php',
     'App\\Entity\\AyahEdition' => $baseDir . '/src/Entity/AyahEdition.php',
     'App\\Entity\\Edition' => $baseDir . '/src/Entity/Edition.php',

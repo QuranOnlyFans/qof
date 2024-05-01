@@ -3,7 +3,7 @@
         'name' => '__root__',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '817d76c44119e2ca76c0881904f317c2c22f6a6c',
+        'reference' => '5878815bd0776dde1b3938f0b767cbdd18db2e60',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         '__root__' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '817d76c44119e2ca76c0881904f317c2c22f6a6c',
+            'reference' => '5878815bd0776dde1b3938f0b767cbdd18db2e60',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -592,6 +592,15 @@
             'install_path' => __DIR__ . '/../sebastian/version',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'sensio/framework-extra-bundle' => array(
+            'pretty_version' => 'v6.2.10',
+            'version' => '6.2.10.0',
+            'reference' => '2f886f4b31f23c76496901acaedfedb6936ba61f',
+            'type' => 'symfony-bundle',
+            'install_path' => __DIR__ . '/../sensio/framework-extra-bundle',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'symfony/amqp-messenger' => array(
             'pretty_version' => 'v5.4.39',

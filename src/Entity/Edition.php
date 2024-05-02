@@ -77,5 +77,98 @@ class Edition
      */
     private $updatedAt;
 
+    // Getters
+    public function getId(): ?int
+    {
+        return $this->id;
+    }
 
+    public function getIdentifier(): ?string
+    {
+        return $this->identifier;
+    }
+
+    public function getLanguage(): ?string
+    {
+        return $this->language;
+    }
+
+    public function getName(): ?string
+    {
+        return $this->name;
+    }
+
+    public function getEnglishName(): ?string
+    {
+        return $this->englishname;
+    }
+
+    public function getFormat(): ?string
+    {
+        return $this->format;
+    }
+
+    public function getType(): ?string
+    {
+        return $this->type;
+    }
+
+    public function getCreatedAt(): ?\DateTime
+    {
+        return $this->createdAt;
+    }
+
+    public function getUpdatedAt(): ?\DateTime
+    {
+        return $this->updatedAt;
+    }
+
+    // Setters
+    public function setIdentifier(string $identifier): self
+    {
+        $this->identifier = $identifier;
+        return $this;
+    }
+
+    public function setLanguage(string $language): self
+    {
+        $this->language = $language;
+        return $this;
+    }
+
+    public function setName(string $name): self
+    {
+        $this->name = $name;
+        return $this;
+    }
+
+    public function setEnglishName(string $englishName): self
+    {
+        $this->englishname = $englishName;
+        return $this;
+    }
+
+    public function setFormat(string $format): self
+    {
+        $this->format = $format;
+        return $this;
+    }
+
+    public function setType(string $type): self
+    {
+        $this->type = $type;
+        return $this;
+    }
+
+    public function setCreatedAt(?\DateTime $createdAt): self
+    {
+        $this->createdAt = $createdAt;
+        return $this;
+    }
+
+    public function setUpdatedAt(?\DateTime $updatedAt): self
+    {
+        $this->updatedAt = $updatedAt;
+        return $this;
+    }
 }

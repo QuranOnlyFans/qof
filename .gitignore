@@ -3,8 +3,8 @@
 /.env.*.local
 /.env.local
 /public/uploads/
-/var/
-/vendor/
+/var
+/vendor
 /public/build/
 npm-debug.log
 yarn-error.log
